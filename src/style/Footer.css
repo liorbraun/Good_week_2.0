@@ -1,0 +1,10 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(172,255,0,1) 0%, rgba(124,59,2,1) 100%);
+    background-image: url("../../assets/BG2.jpeg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

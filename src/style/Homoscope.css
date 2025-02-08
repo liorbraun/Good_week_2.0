@@ -1,0 +1,23 @@
+.homoscope {
+    flex:1
+}
+
+.homoscope .homoscopeWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+    gap: 5px;
+    background-color: white;
+
+}
+
+.homoscope .homoscopeWrapper .homoscopeItem {
+    background-color: rgb(0, 0, 0);
+    border: white 1px solid;
+    text-align: center;
+}

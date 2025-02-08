@@ -1,0 +1,38 @@
+.nav {
+    background-color: #3ae443;
+    width: 100%;
+    background-image: url("../../assets/BG2.jpeg");
+    display: flex;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    flex-direction: row-reverse;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.nav .navlink {
+    border: none;
+    margin: 0;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.402);
+}
+
+.nav .navlink:hover {
+    padding: 50px;
+    font-size: 5px;
+}
+
+@media (max-width: 768px) {
+    .nav .navlink:hover {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}

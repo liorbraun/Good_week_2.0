@@ -13,7 +13,7 @@ const Homoscope = () => {
                     return (
                         <div key={index} className="homoscopeItem">
                             <p className="homoscopeTitle">{item.horoscope}</p>
-                            {/* <p>{item.content}</p> */}
+                            { <p>{item.content}</p> }
                         </div>
                     )
                 })}

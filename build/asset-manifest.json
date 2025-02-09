@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/liorbraun/Good_week_2.0/static/css/main.06a81a86.css",
+    "main.js": "/liorbraun/Good_week_2.0/static/js/main.cc69ff41.js",
+    "static/media/BG2.jpeg": "/liorbraun/Good_week_2.0/static/media/BG2.830907e8774100a47071.jpeg",
+    "static/media/BG1.jpeg": "/liorbraun/Good_week_2.0/static/media/BG1.7b486ac60bc1b167df28.jpeg",
+    "index.html": "/liorbraun/Good_week_2.0/index.html",
+    "main.06a81a86.css.map": "/liorbraun/Good_week_2.0/static/css/main.06a81a86.css.map",
+    "main.cc69ff41.js.map": "/liorbraun/Good_week_2.0/static/js/main.cc69ff41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a81a86.css",
+    "static/js/main.cc69ff41.js"
+  ]
+}

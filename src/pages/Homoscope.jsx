@@ -5,13 +5,13 @@ import "../style/Homoscope.css";
 const Homoscope = () => {
 
     const {homoscope} = useContext(DBContext)       
-
+    const onClickhabdler = () => {} 
     return (
         <div className="homoscope">
             <div className="homoscopeWrapper">
                 {homoscope && homoscope.map((item, index) => {
                     return (
-                        <div key={index} className="homoscopeItem">
+                        <div key={index} className="homoscopeItem" onClick= { onClickhabdler } >
                             <p className="homoscopeTitle">{item.horoscope}</p>
                             { <p>{item.content}</p> }
                         </div>

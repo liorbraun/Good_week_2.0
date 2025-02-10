@@ -10,14 +10,36 @@
     align-items: center;
     height: 100%;
     width: 75%;
-    margin: auto;
+    margin: 20px auto;
+    padding: 20px;
     gap: 5px;
-    background-color: white;
+    background-color: #332980a0;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
 
+.homoscope .homoscopeWrapper .homoscopeitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.homoscope .homoscopeWrapper .homoscopecontent {
+    font-size: 58px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .homoscope .homoscopeWrapper .homoscopeItem {
     background-color: rgb(0, 0, 0);
     border: white 1px solid;
     text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.homoscope .homoscopeWrapper .selected{
+    background-color: seagreen;
 }

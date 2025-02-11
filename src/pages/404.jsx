@@ -3,8 +3,10 @@ import "../style/404.css"
 const Bad = () => {
     return (
         <div className="bad">
-            <p className="title">404</p>
-            <div>Page not found</div>
+            <p className="msg404">404</p>
+            <p className="msg">הלו גבר\ת</p>
+            <img src={require('../assets/dog.jpg')} alt="" />
+            <p className="msg">מקום לא נכון...</p>
         </div>
     );
 }

@@ -10,12 +10,11 @@ import SingNShit from './pages/SingNShit';
 import Gossip from './pages/Gossip';
 
 function App() {
-  const navigate = useNavigate();
 
   return (
     <div className="App">
       <p>שבוע טוב היום!</p>
-      <Navbar navigate={navigate} />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

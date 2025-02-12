@@ -9,6 +9,7 @@
   background-image: url("../../assets/BG1.jpeg");
 
   cursor: url(https://makefrontendshitagain.party/_nuxt/img/cursor.fdb52fc.gif), auto;
+  direction: rtl;
 }
 
 .content {

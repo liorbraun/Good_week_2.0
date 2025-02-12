@@ -14,9 +14,17 @@ const Home = () => {
                 <div className='scroll'>⬇️גלול... הברכה מחכה לך⬇️</div>
                 <div className='scroll1'>עוד טיפה</div>
                 <div className="blessWrapper">
-                    <p>ברכה שבועית</p>
-                    <p>{bless && bless[0].bless}</p>
+                    <p className='blessTitle'>ברכה שבועית</p>
+                    {bless && bless[0].bless.split('\n').map((line, index) => (
+                        <p>{line.length>0 ? line : <br/>} {console.log(line)}</p>
+                        
+                    ))}
                 </div>
+                {/* <div className="blessWrapper">
+                    <p>ברכה שבועית</p>
+                    <p>{`${bless && bless[0].bless}`}</p>
+                    {console.log(JSON.stringify(bless[0].bless))}
+                </div> */}
             </div>
         </div>
     );

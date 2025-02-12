@@ -40,7 +40,7 @@
 }
 
 .landing .scroll {
-    font-size: 30px;
+    font-size: 50px;
     z-index: 99999;
     position: absolute;
     left: 50%;
@@ -53,7 +53,7 @@
 }
 
 .landing .scroll1 {
-    font-size: 50px;
+    font-size: 60px;
     z-index: 99999;
     position: absolute;
     left: 50%;
@@ -73,15 +73,26 @@
     bottom: 50px;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     text-align: center;
     background-color: white;
     color: black;
-    /* opacity: 80%; */
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     margin: auto;
     z-index: 9999999999999999999;
+
+    direction: rtl;
+}
+
+.home .blessWrapper .blessTitle {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home .blessWrapper p {
+    font-size: 30px;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {

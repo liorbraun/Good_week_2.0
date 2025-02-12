@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
-import { HashRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Bad from './pages/404';
 import About from './pages/About';
 import Homoscope from './pages/Homoscope';

@@ -26,7 +26,14 @@ const Homoscope = () => {
                     })}
                 </div>
                 <div className="homoscopecontent">
-                 { displayContent !== undefined && <p>{homoscope[displayContent].content}</p> }
+                 { displayContent !== undefined && 
+                    <p>
+                        {homoscope[displayContent].content.split('\n').map((line, index) => {
+                            return (
+                                <p>{line.length>0 ? line : <br/>}</p>
+                            )
+                        })}
+                    </p> }
                 </div>
             </div>
         </div>

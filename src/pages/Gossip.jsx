@@ -8,21 +8,26 @@ const Gossip = () => {
 
     return (
         <div className="gossip">
-            {gossip && gossip.map((item, i) => {
-                return (
-                    <div key={i} className="gossipItem">
-                        <div className="gossipTitle">{item.gossip}</div>
-                        {/* <div className="gossipContent">
-                            {JSON.stringify(item.content).split("\n").map((line, i) => {
-                                return (
-                                    <p>{line.length>0 ? line : <br/>}</p>
-                                )
-                            })}
-                        </div> */}
-                        <div className="gossipContent">{item.content}</div>
-                    </div>
-                )
-            })}
+            <div className="gossipWrapper">
+                {gossip && gossip.map((item, i) => {
+                    return (
+                        <div key={i} className="gossipItem">
+                            <div className="gossipTitle">
+                                <p>★</p>
+                                {item.gossip}
+                                <p>★</p>
+                            </div>
+                            <div className="gossipContent">
+                                {item.content.split("\n").map((line, i) => {
+                                    return (
+                                        <p key={i}>{line.length>0 ? line : <br/>}</p>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     );
 }

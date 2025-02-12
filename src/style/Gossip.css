@@ -1,3 +1,41 @@
 .gossip {
     flex: 1;
 }
+
+.gossip .gossipWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+    font-size: 30px;
+
+    justify-content: center;
+}
+
+.gossip .gossipWrapper .gossipItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 100%;
+    background-color: rgba(141, 12, 128, 0.482);
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid rgba(92, 92, 92, 0.425);
+    backdrop-filter: blur(10px);
+}
+
+.gossip .gossipWrapper .gossipItem .gossipTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-width: 100%;
+    gap: 20px;
+    color: rgb(255, 242, 0);
+    font-size: 40px;
+    font-weight: 700;
+}

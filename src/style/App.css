@@ -18,3 +18,8 @@
 .App .Footer {
   margin-top: auto;
 }
+
+p {
+  padding: 0;
+  margin: 0;
+}

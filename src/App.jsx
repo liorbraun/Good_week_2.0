@@ -9,6 +9,7 @@ import Homoscope from './pages/Homoscope';
 import SingNShit from './pages/SingNShit';
 import Gossip from './pages/Gossip';
 import Tea from './pages/Tea';
+import Signup from './pages/Signup';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/singNshit" element={<SingNShit />} />
         <Route path="/gossip" element={<Gossip />} />
         <Route path="/teacup" element={<Tea />} />
+        <Route path="/register" element={<Signup />} />
         <Route path="/*" element={<Bad />} />
       </Routes>
       <Footer className="Footer" />

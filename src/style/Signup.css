@@ -1,0 +1,16 @@
+.signup {
+    flex: 1;
+}
+
+.signup .formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .signup .formWrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+} */

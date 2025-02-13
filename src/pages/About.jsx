@@ -11,8 +11,8 @@ const About = () => {
                 {about && about.map((item, index) => {
                     return (
                         <div key={index} className="aboutItem">
-                            <p>{item.about}</p>
-                            <p>{item.content}</p>
+                            <p className="aboutTitle">{item.about}</p>
+                            <p className="aboutContent">{item.content}</p>
                         </div>
                     )
                 })}

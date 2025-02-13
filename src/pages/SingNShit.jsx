@@ -12,7 +12,7 @@ const SingNShit = () => {
                 {singNShit && singNShit.map((item, index) => {
                     return (
                         <div key={index} className="singnshitItem">
-                            <p className="singTitle">{item.sing} מאת - {item.creator}</p>
+                            <p className="singTitle">{item.title} מאת - {item.creator ? item.creator : "אנונימי"}</p>
                             <p className="singContent">
                                 {item.content.split("\n").map((line, index) => {
                                     return (

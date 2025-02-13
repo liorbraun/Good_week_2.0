@@ -12,11 +12,11 @@ const Navbar = () => {
                 <NavLink to='/homoscope' className='navlink'>עומוסקופ</NavLink>
                 <NavLink to='/gossip' className='navlink'>רכילות</NavLink>
                 <NavLink to='/about' className='navlink'>אודות</NavLink>
-                <NavLink to='/register' className='navlink'>הרשמה לשירות</NavLink>
+                {/* <NavLink to='/register' className='navlink'>הרשמה לשירות</NavLink> */}
                 <NavLink to='/singNshit' className='navlink'>מדור שירה וחיברון</NavLink>
                 <NavLink to='/teacup' className='navlink'>כוס תה</NavLink>
-                <NavLink to='/weekly' className='navlink'>מעקב השבוע</NavLink>
-                <NavLink to='/forum' className='navlink'>פורום השבוע</NavLink>
+                {/* <NavLink to='/weekly' className='navlink'>מעקב השבוע</NavLink> */}
+                {/* <NavLink to='/forum' className='navlink'>פורום השבוע</NavLink> */}
             </nav>
         </div>
     );

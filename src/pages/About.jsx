@@ -12,7 +12,16 @@ const About = () => {
                     return (
                         <div key={index} className="aboutItem">
                             <p className="aboutTitle">{item.about}</p>
-                            <p className="aboutContent">{item.content}</p>
+                            <p className="aboutContent">
+                                {item.content.split("\n").map((line, index) => {
+                                    return (
+                                        <span key={index}>
+                                            {line}
+                                            <br/>
+                                        </span>
+                                    )
+                                })}
+                            </p>
                         </div>
                     )
                 })}

@@ -8,6 +8,7 @@ import About from './pages/About';
 import Homoscope from './pages/Homoscope';
 import SingNShit from './pages/SingNShit';
 import Gossip from './pages/Gossip';
+import Tea from './pages/Tea';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/homoscope" element={<Homoscope />} />
         <Route path="/singNshit" element={<SingNShit />} />
         <Route path="/gossip" element={<Gossip />} />
+        <Route path="/teacup" element={<Tea />} />
         <Route path="/*" element={<Bad />} />
       </Routes>
       <Footer className="Footer" />

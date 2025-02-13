@@ -1,0 +1,31 @@
+.tea {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.teaWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    max-width: 90%;
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#6416039f;
+    backdrop-filter: blur(10px);
+}
+
+.teaWrapper p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.teaWrapper .teaImg {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}

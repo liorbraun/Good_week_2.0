@@ -1,3 +1,16 @@
 .about {
     flex: 1;
 }
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.577);
+    border-radius: 20px;
+    color: black;
+    backdrop-filter: blur(5px);
+}

@@ -47,7 +47,9 @@
 }
 
 .homoscope .homoscopeWrapper .selected{
-    background-color: seagreen;
+    background-color: rgb(255, 247, 0);
+    color: blueviolet;
+
 }
 
 @media screen and (max-width: 768px) {

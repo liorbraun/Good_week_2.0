@@ -11,6 +11,7 @@ const Footer = () => {
         <div className="footerWrapper">
             <div className="credit">
                 <p>© 2025 כל הזכויות שמורות</p>
+                <a href="https://buymeacoffee.com/lordbraun" target="_blank" rel="noopener noreferrer">קנו לי כוס תה</a>
             </div>
             <div className="gossipScroll">
                 <ul>

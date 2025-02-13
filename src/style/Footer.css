@@ -10,8 +10,16 @@
     background-image: url("../../assets/BG2.jpeg");
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+
+.credit a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .gossipScroll {

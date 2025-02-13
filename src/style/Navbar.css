@@ -3,6 +3,7 @@
     width: 100%;
     background-image: url("../../assets/BG2.jpeg");
     display: flex;
+    direction: ltr;
 }
 
 .buttonWrapper {

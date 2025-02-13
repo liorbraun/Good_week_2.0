@@ -49,3 +49,26 @@
 .homoscope .homoscopeWrapper .selected{
     background-color: seagreen;
 }
+
+@media screen and (max-width: 768px) {
+
+    .homoscope .homoscopeWrapper {
+        padding: 10px;
+    }
+
+    .homoscope .homoscopeWrapper {
+        width: 90%;
+    }
+
+    .homoscope .homoscopeWrapper .homoscopeitems {
+        font-size: 16px;
+    }
+
+    .homoscope .homoscopeWrapper .homoscopeItem {
+        padding: 8px;
+    }
+
+    .homoscope .homoscopeWrapper .homoscopecontent p{
+        font-size: 35px;
+    }
+}

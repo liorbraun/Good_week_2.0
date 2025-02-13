@@ -16,8 +16,7 @@ const Home = () => {
                 <div className="blessWrapper">
                     <p className='blessTitle'>ברכה שבועית</p>
                     {bless && bless[0].bless.split('\n').map((line, index) => (
-                        <p>{line.length>0 ? line : <br/>} {console.log(line)}</p>
-                        
+                        <p>{line.length>0 ? line : <br/>} {console.log(line)}</p>    
                     ))}
                 </div>
                 {/* <div className="blessWrapper">

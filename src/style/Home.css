@@ -102,8 +102,11 @@
     }
 
     .home .blessWrapper {
-        width: 75%;
-        font-size: 16px;
+        width: 80%;
+    }
+
+    .home .blessWrapper p {
+        font-size: 20px;
     }
     
     .landing .scroll {

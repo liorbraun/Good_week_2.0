@@ -23,11 +23,18 @@
     outline: none;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.402);
+    text-decoration: none;
+    color: white;
+
 }
 
 .nav .navlink:hover {
     padding: 50px;
     font-size: 5px;
+}
+
+.nav .active {
+    background-color: #3ae443;
 }
 
 @media (max-width: 768px) {

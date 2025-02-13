@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './style/App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';

@@ -10,14 +10,16 @@ import SingNShit from './pages/SingNShit';
 import Gossip from './pages/Gossip';
 import Tea from './pages/Tea';
 import Signup from './pages/Signup';
+import Update from './components/Update';
 
 function App() {
 
   return (
     <div className="App">
+      <Update />
       <p>שבוע טוב היום!</p>
       <Navbar />
-      <Routes>
+      <Routes z-index="999999">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/homoscope" element={<Homoscope />} />

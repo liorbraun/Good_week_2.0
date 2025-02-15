@@ -10,6 +10,7 @@ export const DBContextProvider = ({ children }) => {
     const [homoscope, setHomoscope] = useState();
     const [singNShit, setSingNShit] = useState();
     const [gossip, setGossip] = useState();
+    const [update, setUpdate] = useState();
     
     useEffect(() => {
         Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vQdT39Jdb-AiSPDso_cQcpmy3wbfSqz1xfFAIRETMgc_uJvR4MejOYSZ9ZQoBe4_Ts1FOowzmYzUGOJ/pub?gid=0&single=true&output=csv", {
@@ -61,10 +62,20 @@ export const DBContextProvider = ({ children }) => {
         })
         
     },[])
+    useEffect(() => {
+        Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vQdT39Jdb-AiSPDso_cQcpmy3wbfSqz1xfFAIRETMgc_uJvR4MejOYSZ9ZQoBe4_Ts1FOowzmYzUGOJ/pub?gid=1801816803&single=true&output=csv", {
+            download: true,
+            header: true,
+            complete: (results) => {
+                setUpdate(results.data);
+            }
+        })
+        
+    },[])
 
     return (
         <DBContext.Provider value={{
-            bless, about, homoscope, singNShit, gossip
+            bless, about, homoscope, singNShit, gossip, update
         }}>{ children }
         </DBContext.Provider>
     )

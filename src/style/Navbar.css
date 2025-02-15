@@ -4,6 +4,7 @@
     background-image: url("../../assets/BG2.jpeg");
     display: flex;
     direction: ltr;
+    z-index: 10001;
 }
 
 .buttonWrapper {

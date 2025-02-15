@@ -6,10 +6,11 @@ const Signup = () => {
             <div className="formWrapper">
                 <iframe 
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdVLgCgiYVLdWsiRpyfyPYh-F169Jq0w9IyipNXMttapHqdAA/viewform?embedded=true"
-                    height="750"
+                    /* height="750" */
                     frameborder="0"
                     marginheight="0" 
-                    marginwidth="0">
+                    marginwidth="0"
+                    z-index="999999">
                         Loading…
                 </iframe>
             </div>

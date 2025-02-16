@@ -16,7 +16,7 @@ const Update = () => {
             </div>
             <div className={`infoWindow ${active ? "active" : ""}`} onClick={() => {setActive(false)}}>
                 <div className="updatePopup">
-                    <h1>כאן תראו את כל העדכונים של האתר ברגע שמר בראון יועיל בטובו לעדכן אותם</h1>
+                    <h1>מה חדש?</h1>
                     {update && update[0].update.split("\n").map((line, index) => {  return <p key={index}>{line}</p> })}
 
                 </div>
